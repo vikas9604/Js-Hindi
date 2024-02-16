@@ -1,3 +1,7 @@
+
+// *******************************CONVERSION*****************************//
+
+
 let score = "dbd655"
 
 // console.log (typeof score);
@@ -27,4 +31,35 @@ let someNumebr = 33
 
 let stringNumber = String(someNumebr)
 
-console.log(stringNumber);
+//console.log(stringNumber);
+
+
+//************************************** OPERATION **********************************//
+
+
+let value = 3
+
+let negValue = -value
+
+//console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+
+let str1 = "hello"
+let str2 = " Vikas"
+
+let str3 = str1 + str2
+
+console.log(str3);
+
+
+let gameCounter = 100
+gameCounter++          //gameCounter++ => prefix , ++gameCounter => postfix
+
+console.log(gameCounter);
