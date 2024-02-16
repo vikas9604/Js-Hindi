@@ -1,4 +1,4 @@
-// Premitive (call by value)
+// Primitive (call by value)
 
 //7 types : String, Number, Boolean , null, undefined, Symbol , BigInt
 
@@ -20,7 +20,7 @@ const anotherId = Symbol('123')
 const bigNumber = 45458515484858484n
 
 
-//Non Premitive ( refrence type)
+//Non Primitive ( refrence type)
 
 //Array , Object , Function
 
@@ -42,3 +42,32 @@ const myFunction = function () {
 
 }
 
+
+
+//************************************************************ */
+
+//Type of memory => 1) stack  2) Heap 
+
+// Stack (primitive),  Heap(non-primitive)
+
+
+let myYoutubename = "vikasdotcom"
+
+let anothername = myYoutubename
+anothername = "pubg"
+console.log(anothername);
+
+console.log(myYoutubename);
+
+
+let userOne = {
+    email : "google54@gmail.com",
+    upi : "vikas@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
